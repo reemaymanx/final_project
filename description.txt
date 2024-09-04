@@ -1,0 +1,21 @@
+Descritption for the website:
+This is a simple loaning system website consists of three point of views after logging in :-
+
+1)Bank personnel : 
+username -> bank_staff
+password -> 1234
+when you login appears bank personnel point of view which is loan or fund requests and they
+can either accept or reject each in the list according to (total funds > total loans) theory
+
+2)Loan provider:
+username -> provider
+password ->1234
+when you login appears Loan provider point of view which is all their requests as well as
+its updated status
+
+3)Loan customer:
+username -> customer
+password -> 1234
+when you login appears loan customer point of view which is the status of their loan request
+
+Note: you can add new requests via ./admin in django login using superuser .
